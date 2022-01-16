@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.fourthpart {
+  background-color: rgb(18, 18, 110);
+}
+
+h5 {
+  color: darkgray;
+  margin-top: 30px;
+}
+.wallet {
+  border-radius: 30px;
+  margin-left: 40px;
+}
+.card-title {
+  text-align: center;
+  line-height: 2;
+}
+.card {
+  border-radius: 10px;
+  margin-top: 40px;
+}
+label {
+  color: rgb(236, 236, 236);
+  margin-top: 6%;
+}
+input {
+  width: 100%;
+  background-color: lightgray;
+  margin-top: 2%;
+  border-radius: 7px;
+  border: 0px;
+  padding: 10px;
+}
+
+.login {
+  padding: 10px;
+  color: aqua;
+}
+.fa-lock-alt {
+  margin-right: 8px;
+  color: white;
+}
+.pass {
+  color: rgb(236, 236, 236);
+}
+.my-3 {
+  font-size: larger;
+}
+.center {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 150px;
+}
+.maargin {
+  margin-left: 350px;
+  margin-top: 10px;
+}
+.maarginn {
+  margin-left: 260px;
+  margin-top: 20px;
+}
+.para {
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
