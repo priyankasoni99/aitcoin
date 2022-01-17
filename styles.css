@@ -5,32 +5,41 @@ body {
   scroll-behavior: smooth;
 }
 .fourthpart {
-  background-color: rgb(18, 18, 110);
+  background-color: #131428;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  overflow: hidden;
+  position: relative;
 }
 
-h5 {
-  color: darkgray;
+h3 {
+  color: white;
   margin-top: 30px;
 }
 .wallet {
   border-radius: 30px;
-  margin-left: 40px;
+
+  background-color: #5869da;
+  color: #fff;
 }
 .card-title {
-  text-align: center;
   line-height: 2;
+  color: #a8a8b1;
+
+  font-weight: 500;
 }
 .card {
   border-radius: 10px;
   margin-top: 40px;
+  background-color: #08091b;
 }
 label {
-  color: rgb(236, 236, 236);
+  color: darkgray;
   margin-top: 6%;
 }
 input {
   width: 100%;
-  background-color: lightgray;
+  background-color: #21253f;
   margin-top: 2%;
   border-radius: 7px;
   border: 0px;
@@ -39,14 +48,18 @@ input {
 
 .login {
   padding: 10px;
-  color: aqua;
+  color: #fff;
+  background-color: #3876f5;
+  border-radius: 7px;
+  border: 0px;
 }
 .fa-lock-alt {
   margin-right: 8px;
   color: white;
 }
 .pass {
-  color: rgb(236, 236, 236);
+  color: #a8a8b1;
+  font-size: 0.8rem;
 }
 .my-3 {
   font-size: larger;
@@ -59,13 +72,90 @@ input {
 .maargin {
   margin-left: 350px;
   margin-top: 10px;
+  color: darkgray;
 }
 .maarginn {
   margin-left: 260px;
   margin-top: 20px;
+  color: #fff;
 }
 .para {
   font-weight: 400;
   font-size: 0.9rem;
   margin-top: 20px;
+  color: #a8a8b1;
+}
+.me {
+  font-size: 0.9rem;
+  margin-left: -20px;
+}
+.card-body {
+  text-align: center;
+}
+.main {
+  background-color: #0c0c22;
+  background-image: url("https://www.aitcoin.live/assets1/circles.svg");
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.logo {
+  padding-left: 10px;
+}
+#country {
+  width: 100%;
+
+  background-color: #21253f;
+  margin-top: 2%;
+  border-radius: 7px;
+  border: 0px;
+  padding: 10px;
+  color: #fff;
+}
+
+.sidebtn {
+  background-color: blue;
+  color: white;
+  font-size: 1rem;
+  padding: 13px;
+  border-radius: 7px;
+}
+.but {
+  border-radius: 7px;
+  padding: 8px;
+  width: 75%;
+  margin-left: 67px;
+}
+.coin {
+  color: #fff;
+}
+ul li {
+  color: #fff;
+  list-style: none;
+}
+li i {
+  color: #1296ee;
+  padding-right: 15px;
+}
+.logoimg {
+  padding-left: 20px;
+}
+.earn {
+  margin-right: 850px;
+}
+.earnn {
+  margin-right: 460px;
+}
+.earnnn {
+  margin-right: 800px;
+}
+.bgpurple {
+  background-color: rgb(150, 34, 53);
 }
